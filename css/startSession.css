@@ -1,0 +1,71 @@
+#Eid{
+	width:40%;	
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: silver;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: silver;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: silver;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: silver;
+}
+
+.box {
+  background: #fff;
+  margin: 0 0 30px;
+  border: solid 1px #e6e6e6;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+.box .box-header {
+  background: #f7f7f7;
+  margin: -20px -20px 20px;
+  padding: 20px;
+  border-bottom: solid 1px #eeeeee;
+}
+.box .box-header:before,
+.box .box-header:after {
+  content: " ";
+  display: table;
+}
+.box .box-header:after {
+  clear: both;
+}
+.box .box-footer {
+  background: #f7f7f7;
+  margin: 30px -20px -20px;
+  padding: 20px;
+  border-top: solid 1px #eeeeee;
+}
+.box .box-footer:before,
+.box .box-footer:after {
+  content: " ";
+  display: table;
+}
+.box .box-footer:after {
+  clear: both;
+} 
+
+
+#courseSelList{
+	max-height:20em;
+	/*overflow:scroll;*/
+}
+
+.courseBox, .glyphicon{
+	cursor: pointer;
+}
+
+
+#studentName{
+	color: blue;
+}
